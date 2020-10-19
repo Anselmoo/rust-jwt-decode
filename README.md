@@ -3,6 +3,8 @@ rust-jwt-decode
 
 [![unsafe forbidden](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
 
+[![Build Status](https://github.com/Lazalatin/rust-jwt-decode/workflows/CI/badge.svg)](https://github.com/Lazalatin/rust-jwt-decode/actions)
+
 ## Motivation
 As a developer of web-based service landscapes, I often stumbled over JWT. Mostly because I wanted to test my configuration for keycloak-driven application security frameworks.  
 Because of that, I often used websites like jwt.io or base64decode.org. But because I don't like to forge arbitrary traffic and believe that "the web" and "web technologies" are a big mistake, I really wanted a solution to debug my JWTs in a fashion where humans(Developers) can read used tokens. 
